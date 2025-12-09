@@ -342,28 +342,28 @@ hr {
   cursor: pointer;
 }
 .img-wrapper nav ul {
-  list-style: none; /* remove bullets */
-  display: flex; /* lay items out in a row */
-  gap: 1rem; /* space between icons */
+  list-style: none;
+  display: flex;
+  gap: 1rem;
   padding: 0;
   margin: 0;
 }
 .img-wrapper nav ul li {
-  display: flex; /* keeps each li sized to its content */
+  display: flex;
 }
 .middle-footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* push content to bottom */
+  justify-content: flex-end;
 }
 .middle-footer ul {
-  list-style: none; /* removes the dots */
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 .middle-footer ul li a {
-  color: black; /* makes links fully black */
-  font-weight: 400; /* optional: adjust weight */
+  color: black;
+  font-weight: 400;
 }
 
 .right-footer {
@@ -457,7 +457,6 @@ hr {
     max-width: 500px;
   }
 
-  /* product image aligned right; text left under it */
   .collar-price .collar-img {
     display: flex;
     justify-content: flex-end;
@@ -511,6 +510,8 @@ hr {
     align-items: center;
   }
 }
+
+/* Animation */
 @keyframes slide-top {
   0% {
     top: 100px;
